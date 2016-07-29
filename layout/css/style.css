@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Istok Web', sans-serif;
+  word-wrap: break-word;
+  line-height: 31px;
+  color:  #333;
+}
+body .container {
+  padding: 0;
+}
+a, a:visited {
+  color: #333;
+}
+
+a:hover, a:active, a:focus {
+  color: #FA381D;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.content-sector {
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+/* Top header */
+
+.header-top {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ddd;
+}
+nav > a {
+  color: black;
+  cursor:text;
+}
+nav > a:link,
+nav > a:hover,
+nav > a:visited,
+nav > a:active {
+  color: black;
+}
+.navbar {
+  margin: 0;
+  min-height: 48px;
+}
+.navbar-default {
+  background-color: #FFFFFF;
+}
+.nav-item {
+  margin: 8px 40px 0 0;
+}
+.fui-skype {
+  color: #95A5A6;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.fa-phone {
+  color: #95A5A6;
+  margin-right: 10px;
+}
+
+/* End of top header */
+
+/* Header middle */
+.logo, .search, .logo {
+  padding: 37px 0 0 0;
+}
+.header-middle {
+  background-color: #F5F5F5;
+  padding-bottom: 20px;
+}
+
+.logo-wrapper {
+  margin-left: 10px;
+}
+.logo-text {
+  font-size: 14px;
+  text-align: center;
+  margin: -3px 0px 0 50px;
+}
+.logo-bg {
+  display: block;
+  overflow: hidden;
+  height: 38px;
+}
+.navbar-form,
+.navbar-form .form-group,
+.navbar-form .input-group {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.shopping-cart {
+  padding: 37px 0 0 0;
+}
+
+.icon-shopping-cart {
+  background: url(../img/icon-cart.png) no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.block-shopping-cart {
+  background-color: #DCDCDC;
+}
+.cart-details {
+  padding-left: 10px;
+}
+.cart-icon-number {
+  border-radius: 50%;
+  position: relative;
+  top: -15px;
+  left: 27px;
+  float: none;
+  background: none no-repeat scroll #fa381d;
+  width: auto;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+.cart-text {
+  color: #333;
+}
+.cart-price {
+  color: #fa381d;
+  font-size: 18px;
+}
+
+/* End of header middle */
+
+/* Navigation */
+
+.main-menu {
+  padding: 0;
+}
+.navbar {
+  border-radius: 0px;
+}
+.header-bottom, .navbar-inverse {
+  background-color: #21252B;
+}
+.navbar-header {
+  background-color: #111111;
+}
+.navbar-nav {
+  text-transform: uppercase;
+}
+.navbar-element {
+  font-family: 'Rubik', sans-serif;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #FA381D;
+}
+.navbar-inverse > .navbar-header > a:hover,
+.navbar-inverse > .navbar-header > a:focus, {
+  color: #FA381D;
+}
+
+/* End of navigation */
+
+/* Product menu */
+
+.product-menu,
+.jumbo,
+.info {
+  padding: 0;
+}
+.product-block {
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-top: 25px;
+  width: 100%;
+}
+.product-title,
+.info-title {
+  background-color: #21252B;
+  padding: 10px 20px;
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 0;
+}
+.product-items,
+.info-text {
+  display: block;
+  border: 1px solid #ddd;
+  border-top: none;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background: none repeat scroll 0 0 #fff;
+  padding: 20px 0px;
+  width: 100%
+}
+
+.jumbo-block {
+  padding-top: 25px;
+  padding-right: 15px;
+}
+
+.info-block {
+  padding-top: 25px;
+}
+
+.info-text > p {
+  margin: 10px;
+}
+/* End of product menu */
+
+/* Services */
+.block-repair {
+  background-color: #86bc76;
+}
+.block-useddetails {
+  background-color: #eb7b4e;
+}
+.block-spareparts {
+  background-color: #6c96c6;
+}
+
+.block-spareparts, .block-repair, .block-useddetails {
+  padding-top: 30px;
+  height: 124px;
+  width: 290px;
+  display: block;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-top: 1px;
+  color: #FFF;
+  text-align: center;
+}
+.block-spareparts > i, .block-repair > i, .block-useddetails > i {
+  font-size: 35px;
+}
+.icons-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* End of services */
+
+/* List of products */
+.product-item {
+  padding: 0;
+}
+.products-header {
+  line-height: 40px;
+  padding: 0 0 10px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  color: #222;
+  background: url(../img/bg-title3.png) no-repeat left bottom;
+  margin-bottom: 20px;
+}
+h3 > span {
+  color: #fa381d;
+}
+.product-item-block {
+  padding-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 0 10px 0 1px;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+}
+.product-container-info {
+  margin-top: 30px;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #FA381D;
+  margin-top: -15px;
+}
+.product-button {
+  position: relative;
+  top: 20px;
+}
+.btn-product {
+  border-radius: 25px;
+  border: 1px solid #FA381D;
+  padding: 0 26px;
+  height: 46px;
+  background-color: #FFF;
+  color: #333;
+  font-size: 18px;
+}
+button.btn-product:hover {
+  color: #fff;
+  background-color: #FA381D;
+}
+button.btn-product:active, button.btn-product:visited {
+  background-color: #FFF;
+  color: #333;
+}
+
+/* End list of products */
+
+/* Footer */
+
+.footer-top {
+  background-color: #222222;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-bottom {
+  padding: 5px 0 5px 0;
+  background-color: #1A1A1A;
+}
+.footer-links-block {
+  padding: 0;
+}
+.footer-links {
+  padding:0;
+  margin-right: 40px;
+}
+.footer-links > li > a {
+  color: #fff;
+  font-weight: 500;
+}
+.footer-links-block ul li{
+ list-style: none;
+}
+p.footer-payment-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer-payment-block ul li {
+  list-style: none;
+  display: inline-block;
+}
+ul.footer-payment-list {
+  padding: 0;
+}
+.footer-payment-list-visa {
+  width: 50px;
+ 	height: 30px;
+ 	background: url(../img/visa.png) no-repeat;
+}
+.footer-payment-list-mcard {
+  width: 50px;
+  height: 30px;
+  background: url(../img/mastercard.png) no-repeat;
+}
+.footer-payment-list-sber {
+  width: 50px;
+  height: 30px;
+  background: url(../img/sberbank.png) no-repeat;
+}
+.footer-payment-list-yandex {
+  width: 50px;
+  height: 30px;
+  background: url(../img/yandexmoney.png) no-repeat;
+}
+/* End of footer */
